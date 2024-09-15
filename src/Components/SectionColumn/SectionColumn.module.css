@@ -1,0 +1,9 @@
+.section {
+  max-width: 160rem;
+  margin-bottom: 2.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}/*# sourceMappingURL=SectionColumn.module.css.map */

@@ -1,0 +1,42 @@
+@import '../../variaveis-funcoes.scss';
+
+
+.rectangle-container {
+    width: 76.5rem;
+    height: 27rem;
+    border-radius: 3rem;
+    border: 1px;
+    background: $cardColor;
+    position: relative;
+    @include flexCenter(column, space-between);
+    color: $textcolordarkprimary;
+
+
+    svg {
+        position: absolute;
+        left: 3rem;
+    }
+
+    .rectangle-container-text {
+
+        text-align: left;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        h1 {
+            font-family: "Inter", sans-serif;
+            font-size: 3.6rem;
+            font-weight: 600;
+            line-height: 4rem;
+        }
+
+        p {
+            font-family: "Inter", sans-serif;
+            font-size: 1.6rem;
+            font-weight: 500;
+            line-height: 2.5rem;
+            text-align: left;
+            color: $textcolordarksecondary;
+        }
+
+    }
+}

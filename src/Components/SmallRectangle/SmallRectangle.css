@@ -1,0 +1,27 @@
+.rectangle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 56.8rem;
+  height: 5.4rem;
+  border-radius: 30px;
+  border: 1px;
+  background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.13) 10.15%, rgba(255, 255, 255, 0.03) 89.36%);
+  gap: 2rem;
+  padding: 0;
+  margin: 0;
+}
+.rectangle li:first-child {
+  list-style: none;
+}
+.rectangle li {
+  color: rgba(188, 188, 188, 0.5019607843);
+  list-style: disc;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+}
+.rectangle span {
+  color: #FFFFFF;
+}/*# sourceMappingURL=SmallRectangle.css.map */

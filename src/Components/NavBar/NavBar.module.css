@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 7.2rem;
+  max-width: 116rem;
+  margin-bottom: 8rem;
+}
+.container .leftBox {
+  font-family: "Inter", sans-serif;
+  color: #FFFFFF;
+  font-size: 3rem;
+}
+.container .centerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+}
+.container a {
+  color: rgba(188, 188, 188, 0.5019607843);
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: 0.01em;
+}
+.container a:hover {
+  color: white;
+}
+.container button {
+  width: 13rem;
+  height: 4.5rem;
+  border-radius: 16px;
+  background-color: #323232;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+}/*# sourceMappingURL=NavBar.module.css.map */

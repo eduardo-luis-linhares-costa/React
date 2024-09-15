@@ -1,0 +1,48 @@
+.containerRectangle {
+  width: 56.8rem;
+  height: 27rem;
+  border-radius: 3rem;
+  border: 1px;
+  background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.13) 10.15%, rgba(255, 255, 255, 0.03) 89.36%);
+  padding-left: 3rem;
+  padding-top: 1rem;
+}
+.containerRectangle h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16.8px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.containerRectangle .yearText {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16.8px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(188, 188, 188, 0.5019607843);
+  margin-bottom: 0.8rem;
+  margin-top: 2.5rem;
+}
+.containerRectangle .courseText {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+  color: #FFFFFF;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.containerRectangle .schoolText {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.8px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  color: rgba(188, 188, 188, 0.5019607843);
+  margin-top: 0;
+}/*# sourceMappingURL=SmallRectangleAbout.css.map */

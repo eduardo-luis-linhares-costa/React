@@ -1,0 +1,38 @@
+.rectangleIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 56.8rem;
+  height: 24rem;
+  border-radius: 3rem;
+  border: 0.1rem;
+  background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.13) 10.15%, rgba(255, 255, 255, 0.03) 89.36%);
+  padding-top: 68px;
+  gap: 3rem;
+}
+
+.rectangleFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  padding: 0 3rem;
+  font-family: "Inter", sans-serif;
+}
+.rectangleFooter div:first-child {
+  text-align: left;
+}
+.rectangleFooter .titleIcons {
+  color: rgba(188, 188, 188, 0.5019607843);
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+.rectangleFooter .subtitleIcons {
+  color: #FFFFFF;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+  font-weight: 100;
+}/*# sourceMappingURL=RectangleIcons.css.map */

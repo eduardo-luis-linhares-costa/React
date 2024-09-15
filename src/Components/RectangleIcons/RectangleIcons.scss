@@ -1,0 +1,37 @@
+@import '../../variaveis-funcoes.scss';
+
+.rectangleIcons{
+    @include flexCenter(column);
+    width: 56.8rem;
+height: 24rem;
+border-radius: 3rem;
+border: 0.1rem;
+background: $cardColor;
+padding-top: 68px;
+gap: 3rem;
+}
+
+.rectangleFooter{
+    @include flexCenter(row, space-between);
+    width: 100%;
+    padding: 0 3rem;
+    font-family: "Inter", sans-serif;
+
+    div:first-child{
+        text-align: left;
+    }
+
+    .titleIcons{
+        color: $textcolordarksecondary;
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        font-weight: 600;
+    }
+
+    .subtitleIcons {
+        color: $textcolordarkprimary;
+        font-size: 2rem;
+        margin-top: 0.5rem;
+        font-weight: 100  ;
+    }
+}

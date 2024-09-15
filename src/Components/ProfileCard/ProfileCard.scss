@@ -1,0 +1,52 @@
+@import '../../variaveis-funcoes.scss';
+
+.mainSquare {
+    background: $cardColor;
+    width: 56.8rem;
+    height: 31.8rem;
+    border-radius: 30px;
+    border: 1px;
+    @include flexCenter();
+    gap: 3.5rem;
+   
+
+    .imgSquare {
+        width: 22.4rem;
+        height: 22.4rem;
+        background-color: #F3F3F3;
+        border-radius: 30px 0px 30px 0px;
+    }
+
+    .textSquare {
+
+        @include flexCenter();
+        flex-direction: column;
+        align-items: flex-start;
+        font-family: "Inter", sans-serif;
+
+
+        h2 {
+            font-size: 2.6rem;
+            
+            font-weight: 600;
+            color: $textcolordarkprimary;
+            max-width: 180px;
+            text-align: left;
+            margin: 0;
+        }
+
+        p {
+            color: $textcolordarksecondary;
+            max-width: 21.4rem;
+            text-align: left;
+            font-size: 1.4rem;
+        }
+
+        svg {
+            
+            align-self: flex-end;
+        }
+    }
+
+
+}

@@ -1,0 +1,45 @@
+@import '../../variaveis-funcoes.scss';
+
+.rectangleworkbox {
+    @include flexCenter(column);
+    position: relative;
+    width: 56.8rem;
+    height: 24rem;
+    border-radius: 3rem;
+    border: 0.1rem;
+    background: $cardColor;
+    gap: 3rem;
+    margin-top: 2.4rem;
+
+    svg:first-child{
+        position: absolute;
+        top: 0;
+        left: 40px;
+    }
+
+
+    .rectangleLast {
+        @include flexCenter(row, space-between);
+        padding: 0 30px;
+        width: 100%;
+
+        h3 {
+            font-family: "Inter", sans-serif;
+            font-size: 4.4rem;
+            color: $textcolordarkprimary;
+            font-weight: 600;
+            line-height: 52px;
+            letter-spacing: -0.03em;
+            text-align: left;
+            margin-bottom: 0;
+        }
+
+        span {
+            color: blue;
+        }
+
+        svg{
+            align-self: flex-end;
+        }
+    }
+}

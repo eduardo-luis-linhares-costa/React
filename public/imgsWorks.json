@@ -1,0 +1,39 @@
+[
+    {
+      "id": 1,
+      "Title": "DYNAMIC",
+      "Subtitle": "WEB-DESIGNING",
+      "imageUrl": "../src/assets/reactimg.jpg"
+    },
+    {
+      "id": 2,
+      "Title": "SEVEN STUDIO",
+      "Subtitle": "MOBILE DESIGNING",
+      "imageUrl": "../src/assets/sevenstudios.jpeg"
+    },
+    {
+      "id": 3,
+      "Title": "RAVEN STUDIO",
+      "Subtitle": "BRANDING",
+      "imageUrl": "../src/assets/ravenstudios.png"
+    }, 
+    {
+        "id": 4,
+        "Title": "PHOTOGRAPY",
+        "Subtitle": "DIESEL H1",
+        "imageUrl": "../src/assets/photography.jpeg"
+      },
+      {
+        "id": 5,
+        "Title": "MOBILE DESIGNING",
+        "Subtitle": "SUBMARINE",
+        "imageUrl": "../src/assets/mobiledesign.jpeg"
+      },
+      {
+        "id": 6,
+        "Title": "WEB DESIGNING",
+        "Subtitle": "HYDRA MERC",
+        "imageUrl": "../src/assets/webdesign.jpeg"
+      }
+  ]
+  

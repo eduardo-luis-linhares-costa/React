@@ -1,0 +1,8 @@
+@import '../../variaveis-funcoes.scss';
+
+.section{
+    max-width: 160rem;
+    margin-bottom: 2.4rem;
+ @include flexCenter(column);
+ gap: 2.4rem;
+}

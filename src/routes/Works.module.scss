@@ -1,0 +1,6 @@
+@import '../variaveis-funcoes.scss';
+
+.worksFlex{
+    @include flexCenter();
+    gap: 1.5rem;
+}

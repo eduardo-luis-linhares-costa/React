@@ -1,0 +1,7 @@
+.worksFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1.5rem;
+}/*# sourceMappingURL=Works.module.css.map */

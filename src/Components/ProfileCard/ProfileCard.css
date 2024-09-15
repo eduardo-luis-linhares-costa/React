@@ -1,0 +1,44 @@
+.mainSquare {
+  background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.13) 10.15%, rgba(255, 255, 255, 0.03) 89.36%);
+  width: 56.8rem;
+  height: 31.8rem;
+  border-radius: 30px;
+  border: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 3.5rem;
+}
+.mainSquare .imgSquare {
+  width: 22.4rem;
+  height: 22.4rem;
+  background-color: #F3F3F3;
+  border-radius: 30px 0px 30px 0px;
+}
+.mainSquare .textSquare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: "Inter", sans-serif;
+}
+.mainSquare .textSquare h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  max-width: 180px;
+  text-align: left;
+  margin: 0;
+}
+.mainSquare .textSquare p {
+  color: rgba(188, 188, 188, 0.5019607843);
+  max-width: 21.4rem;
+  text-align: left;
+  font-size: 1.4rem;
+}
+.mainSquare .textSquare svg {
+  align-self: flex-end;
+}/*# sourceMappingURL=ProfileCard.css.map */

@@ -1,0 +1,35 @@
+.Card {
+  width: 37.1rem;
+  height: auto;
+  border-radius: 3rem;
+  border: 1px;
+  background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.13) 10.15%, rgba(255, 255, 255, 0.03) 89.36%);
+  padding: 2.4rem;
+}
+.Card .Card-Container {
+  background-color: #F3F3F3;
+  border-radius: 3rem;
+  height: 320px;
+  width: auto;
+}
+.Card .Card-Container img {
+  width: 100%;
+  min-height: 322px;
+  border-radius: 13px;
+}
+.Card .Title {
+  color: rgba(188, 188, 188, 0.5019607843);
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 0;
+}
+.Card .Subtitle {
+  font-family: "Inter", sans-serif;
+  color: #FFFFFF;
+  font-size: 2rem;
+  margin-top: 5px;
+  margin-bottom: 0;
+  text-align: left;
+}/*# sourceMappingURL=BigCardImg.module.css.map */

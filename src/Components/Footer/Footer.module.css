@@ -1,0 +1,38 @@
+.left-footer {
+  font-family: "Inter", sans-serif;
+  color: #FFFFFF;
+  font-size: 3rem;
+  margin-top: 10rem;
+}
+
+.center-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 50px;
+  margin-top: 3rem;
+}
+.center-footer .footer-link {
+  color: rgba(188, 188, 188, 0.5019607843);
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: 0.01em;
+}
+
+.footer-text {
+  font-family: "Inter" sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19.2px;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: rgba(188, 188, 188, 0.5019607843);
+  margin-top: 3.4rem;
+}
+.footer-text span {
+  font-family: "Inter" sans-serif;
+  color: #5B78F6;
+}/*# sourceMappingURL=Footer.module.css.map */

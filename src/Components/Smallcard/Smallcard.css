@@ -1,0 +1,48 @@
+.card {
+  width: 27.2rem;
+  height: 24rem;
+  border-radius: 3rem;
+  border: 1px;
+  background: linear-gradient(113.25deg, rgba(255, 255, 255, 0.075) -5.07%, rgba(255, 255, 255, 0.0125) 89.22%);
+  max-width: 27.2rem;
+  height: 24rem;
+  border-radius: 3rem;
+  border: 0.1rem;
+  background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.13) 10.15%, rgba(255, 255, 255, 0.03) 89.36%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+  padding: 2.4rem 2.4rem 3.7rem 2.4rem;
+}
+.card #imgOne {
+  width: 100%;
+  height: 126px;
+  border-radius: 20px;
+  background: #D9D9D9;
+}
+.card .cardBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+}
+.card .cardBottom div:first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  text-align: start;
+}
+.card .title {
+  color: rgba(188, 188, 188, 0.5019607843);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.card .subtitle {
+  color: #FFFFFF;
+  font-size: 2rem;
+}/*# sourceMappingURL=Smallcard.css.map */

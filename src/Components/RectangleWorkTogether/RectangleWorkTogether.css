@@ -1,0 +1,43 @@
+.rectangleworkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  width: 56.8rem;
+  height: 24rem;
+  border-radius: 3rem;
+  border: 0.1rem;
+  background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.13) 10.15%, rgba(255, 255, 255, 0.03) 89.36%);
+  gap: 3rem;
+  margin-top: 2.4rem;
+}
+.rectangleworkbox svg:first-child {
+  position: absolute;
+  top: 0;
+  left: 40px;
+}
+.rectangleworkbox .rectangleLast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0 30px;
+  width: 100%;
+}
+.rectangleworkbox .rectangleLast h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 4.4rem;
+  color: #FFFFFF;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  margin-bottom: 0;
+}
+.rectangleworkbox .rectangleLast span {
+  color: blue;
+}
+.rectangleworkbox .rectangleLast svg {
+  align-self: flex-end;
+}/*# sourceMappingURL=RectangleWorkTogether.css.map */

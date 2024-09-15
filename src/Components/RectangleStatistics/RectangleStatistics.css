@@ -1,0 +1,40 @@
+.rectanglebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 56.8rem;
+  height: 24rem;
+  border-radius: 3rem;
+  border: 0.1rem;
+  background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.13) 10.15%, rgba(255, 255, 255, 0.03) 89.36%);
+  gap: 3rem;
+  margin-top: 2.4rem;
+}
+.rectanglebox div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem;
+  width: 15.7rem;
+  height: 18rem;
+  border-radius: 3rem;
+  background: linear-gradient(93.61deg, rgba(255, 255, 255, 0.03) 1.71%, rgba(220, 223, 234, 0.01) 104.45%, rgba(255, 255, 255, 0.005) 104.45%);
+}
+.rectanglebox h4 {
+  color: rgba(188, 188, 188, 0.5019607843);
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: auto;
+}
+.rectanglebox h3 {
+  color: #FFFFFF;
+  font-family: "Inter", sans-serif;
+  font-size: 3.4rem;
+  font-weight: 500;
+  line-height: 41.15px;
+  letter-spacing: -0.055em;
+  text-align: center;
+  margin: auto;
+}/*# sourceMappingURL=RectangleStatistics.css.map */

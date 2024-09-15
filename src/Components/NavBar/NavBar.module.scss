@@ -1,0 +1,43 @@
+@import '../../variaveis-funcoes.scss';
+
+.container {
+    @include flexCenter(row, space-between);
+    height: 7.2rem;
+    max-width: 116rem;
+    margin-bottom: 8rem;
+
+    .leftBox {
+        font-family: "Inter", sans-serif;
+        color: $textcolordarkprimary;
+        font-size: 3rem;
+    }
+
+    .centerBox {
+        @include flexCenter();
+        gap: 50px;
+    }
+
+    a {
+        color: $textcolordarksecondary;
+        font-family: "Inter", sans-serif;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 19.2px;
+        letter-spacing: 0.01em;
+    }
+
+    a:hover{
+        color: white;
+    }
+
+    button {
+        width: 13rem;
+        height: 4.5rem;
+        border-radius: 16px;
+        background-color: #323232;
+        border: none;
+        color: $textcolordarkprimary;
+        font-family: "Inter", sans-serif;
+        font-size: 1.6rem;
+    }
+}

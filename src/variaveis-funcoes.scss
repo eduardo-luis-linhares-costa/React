@@ -1,0 +1,39 @@
+$colordarktheme: black;
+$colorlighttheme: white;
+
+$cardColor: linear-gradient(114.15deg, rgb(255 255 255 / 13%) 10.15%, rgb(255 255 255 / 3%) 89.36%);
+
+$textcolordarkprimary: #FFFFFF;
+$textcolordarksecondary : #BCBCBC80;
+$textcolordarkthird : #5B78F6;
+
+
+$textcolorlightdarksecondary : #BCBCBC80;
+$textcolorlightthird : #5B78F6;
+
+
+
+
+@mixin flexCenter($direction: row, $justify: center) {
+    display: flex;
+    align-items: center;
+    justify-content: $justify;
+    flex-direction: $direction;
+}
+
+
+@mixin smallrectangle() {
+    width: 27.2rem;
+    height: 24rem;
+    border-radius: 3rem;
+    border: 1px;
+    background: linear-gradient(113.25deg, rgba(255, 255, 255, 0.075) -5.07%, rgba(255, 255, 255, 0.0125) 89.22%);
+
+}
+
+@mixin bigrectangle(){
+    width: 56.8rem;
+height: 24rem;
+border-radius: 30px;
+border: 1px;
+}

@@ -1,0 +1,36 @@
+.rectangle-container {
+  width: 76.5rem;
+  height: 27rem;
+  border-radius: 3rem;
+  border: 1px;
+  background: linear-gradient(114.15deg, rgba(255, 255, 255, 0.13) 10.15%, rgba(255, 255, 255, 0.03) 89.36%);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  color: #FFFFFF;
+}
+.rectangle-container svg {
+  position: absolute;
+  left: 3rem;
+}
+.rectangle-container .rectangle-container-text {
+  text-align: left;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+.rectangle-container .rectangle-container-text h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 3.6rem;
+  font-weight: 600;
+  line-height: 4rem;
+}
+.rectangle-container .rectangle-container-text p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  text-align: left;
+  color: rgba(188, 188, 188, 0.5019607843);
+}/*# sourceMappingURL=BigRectangleAbout.css.map */

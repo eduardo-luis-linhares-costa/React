@@ -1,0 +1,30 @@
+@import '../../variaveis-funcoes.scss';
+
+.rectangle {
+    @include flexCenter();
+    width: 56.8rem;
+    height: 5.4rem;
+    border-radius: 30px;
+    border: 1px;
+    background: $cardColor;
+    gap: 2rem;
+    padding: 0;
+    margin: 0;
+
+    li:first-child{
+        list-style: none; 
+    }
+
+    li {
+        color: $textcolordarksecondary;
+        list-style: disc; 
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-family: 'Inter', sans-serif;
+    
+    }
+
+    span {
+        color: $textcolordarkprimary;
+    }
+}
